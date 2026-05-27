@@ -49,7 +49,7 @@ datos. ¿Qúe tan bueno es el ajuste? ¿Hay algún efecto que nuestro modelo no 
 Hint: usa la libreria numpy
 
 ## Ejercicio 3
-# Coeficiente de correlación de Pearson
+
 
 Ahora añadiremos una dimensión extra a nuestra tabla anterior. Supongamos que además de los datos anteriores también tenemos disponible la circunferencia máxima de cada pez.
 |Cicunferencia Máxima|24.77|21.29|27.94|21.59|31.75|22.86|
