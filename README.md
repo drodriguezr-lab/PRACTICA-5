@@ -16,8 +16,26 @@ róbalo.
 
 
 ## Uso e instalación
+Instalamos los siguientes paquetes:
+1. `numpy` como np
+2. `matplotlib.pyplot` como `plt`
+
+
 
 ## Ejercicio 1
+
+Para poder ajustar nuestro modelo necesitamos datos sobre el peso (W) y la longitud (l) de algunos pescados. Los únicos datos sobrevivientes de los campeonatos anteriores se encuentran en la siguiente tabla:
+| Longitud (cm) | 36.81|31.77|43.82|36.82|32.07|45.07|35.89|
+| ------------ | ----- |--- |--- |--- |--- |--- |--- |
+| Peso (kg) | .78 |.47 |1.16 |.74 |.44 |1.4 |.64  |
+
+
+En realidad, lo que medimos cuando "pesamos" en kg es la masa, y no el peso, de lo que 
+estemos midiendo.
+Grafica los datos de esta tabla de acuerdo a la relación:
+
+
+
 ## Ejercicio 2
 ## Ejercicio 3
 
