@@ -13,7 +13,7 @@ longitudes_cubicas = longitudes ** 3
 plt.figure(figsize=(7, 3.5))
 
 # Gráfico de dispersión: Peso vs Longitud³
-plt.scatter(longitudes_cubicas, pesos, color='blue', s=80, label='Datos experimentales')
+plt.scatter(longitudes_cubicas, pesos, color='blue', s=80, label='Datos recopilados')
 
 plt.title('Relación entre Peso [W] y Longitud³ [l³] de los pescados')
 plt.xlabel('Longitud³ [cm³]')
@@ -21,7 +21,7 @@ plt.ylabel('Peso [kg]')
 plt.grid(True, alpha=0.3)
 plt.legend()
 plt.tight_layout()
-plt.savefig("media/grafica Ejercicio 1.png")
+plt.savefig("grafica Ejercicio 1.png")
 plt.show()
 
 
