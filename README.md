@@ -33,11 +33,33 @@ Para poder ajustar nuestro modelo necesitamos datos sobre el peso (W) y la longi
 En realidad, lo que medimos cuando "pesamos" en kg es la masa, y no el peso, de lo que 
 estemos midiendo.
 Grafica los datos de esta tabla de acuerdo a la relación:
+$W \propto l ^3$
+
+![Gráfica de relación $W y l^3$](media/grafica Ejercicio 1.png)
+
 
 
 
 ## Ejercicio 2
+Utiliza los datos anteriores y el método de tu preferencia para estimar un buen valor de K
+para nuestro modelo de similaridad geométrica $W = Kl^3$
+. Grafica la estimación contra los 
+datos. ¿Qúe tan bueno es el ajuste? ¿Hay algún efecto que nuestro modelo no capture?
+
+Hint: usa la libreria numpy
+
 ## Ejercicio 3
+# Coeficiente de correlación de Pearson
+
+Ahora añadiremos una dimensión extra a nuestra tabla anterior. Supongamos que además de los datos anteriores también tenemos disponible la circunferencia máxima de cada pez.
+|Cicunferencia Máxima|24.77|21.29|27.94|21.59|31.75|22.86|
+|-----|----|-----|-----|-----|----|----|
+
+Realice el ajuste del nuevo modelo en términos de la circunferencia ¿Cómo queda la fórmula explicita del modelo?¿Qué tan bueno es el ajuste?
+
+El nuevo modelo:
+
+## $W=k l C_m^2$
 
 ## Conclusiones 
 
